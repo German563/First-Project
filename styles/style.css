@@ -176,6 +176,7 @@
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #fff;
 }
 
 .events__content {
@@ -187,7 +188,6 @@
   font-weight: 500;
   line-height: 30px;
   margin: 0;
-  font-weight: 700;
 }
 
 .events__title {
@@ -242,9 +242,6 @@
   color: #1f69c9;
 }
 
-.events {
-  background-color: #fff;
-}
 .events__cover {
   margin-top: 10px;
   flex-grow: 1;
