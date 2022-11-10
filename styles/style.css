@@ -22,6 +22,7 @@
   gap: 40px;
   margin-top: 68px;
   max-width: 1100px;
+  padding: 0;
 }
 .header {
   height: 100vh;
@@ -393,9 +394,7 @@
   z-index: 2;
 }
 .about__paragraph:last-child {
-  position: relative;
   margin: 0;
-  z-index: 2;
 }
 
 .about__circle {
@@ -467,9 +466,7 @@
 }
 
 .footer__copyright {
-  position: relative;
-  bottom: 60px;
-  left: 80px;
+  margin: 0;
 }
 .footer__list-item_link {
   color: #c1c1c1;
@@ -477,7 +474,7 @@
   display: flex;
   align-items: center;
 }
-.footer__list-item_img {
+.footer__list-item__image {
   width: 16px;
   margin-right: 10px;
 }
