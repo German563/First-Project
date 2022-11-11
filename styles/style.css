@@ -2,16 +2,14 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: Helvetica;
+  font-family: "Helvetica neue", sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
 .content {
   background-color: #f2f2f2;
 }
-.font-weight_bold {
-  font-weight: 600;
-}
+
 .staff__wrapper {
   display: flex;
   list-style-type: none;
@@ -21,7 +19,7 @@
   margin: 0 auto;
   gap: 40px;
   margin-top: 68px;
-  max-width: 1100px;
+  max-width: 760px;
   padding: 0;
 }
 .header {
@@ -51,6 +49,9 @@
   display: flex;
   align-items: center;
   column-gap: 20px;
+  padding-left: 0;
+  margin-top: 8px;
+  margin-bottom: 0;
 }
 
 .nav__link {
@@ -186,21 +187,18 @@
   font-size: 20px;
   line-height: 30px;
   margin: 0;
+  font-weight: 600;
 }
 
 .events__title {
   font-size: 44px;
   line-height: 52px;
   margin: 32px 0;
+  font-weight: 600;
 }
 
 .events__info-section {
   margin-top: 32px;
-  position: relative;
-  left: -10px;
-}
-.event-info__logo {
-  margin-right: 10px;
 }
 
 .event-info__item {
@@ -213,10 +211,9 @@
 .event-info__icon {
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 8px;
-  height: 25px;
-  width: 25px;
-  margin-top: -5px;
+  margin-right: 12px;
+  height: 24px;
+  width: 24px;
 }
 
 .event-info__icon_type_calendar {
@@ -231,11 +228,11 @@
   font-size: 20px;
   line-height: 30px;
   margin: 0;
+  font-weight: 600;
 }
 
 .events__description {
   margin: 40px 0 60px;
-  font-weight: 500;
 }
 
 .events__more {
@@ -389,8 +386,8 @@
 }
 
 .about__paragraph {
-  position: relative;
   margin-bottom: 32px;
+  margin-top: 0;
   z-index: 2;
 }
 .about__paragraph:last-child {
@@ -429,16 +426,13 @@
 }
 
 .footer__column_content_social {
-  margin-right: 102px;
+  margin-right: 0px;
 }
 
 .footer__logo {
   display: block;
   width: 116px;
   height: 21px;
-  justify-content: flex-start;
-}
-.footer__logo_image {
   width: 100%;
 }
 
@@ -451,7 +445,6 @@
 .footer__list-item {
   margin-bottom: 16px;
   color: #fff;
-  display: flex;
 }
 .footer__list-item:last-child {
   margin: 0;
@@ -468,13 +461,16 @@
 .footer__copyright {
   margin: 0;
 }
-.footer__list-item_link {
-  color: #c1c1c1;
+.footer__column-link {
+  color: white;
   text-decoration: none;
   display: flex;
   align-items: center;
 }
-.footer__list-item__image {
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+.footer__social-icon {
   width: 16px;
   margin-right: 10px;
 }
