@@ -422,11 +422,11 @@
 }
 
 .footer__column_content_hours {
-  margin: 100px;
+  margin-right: 100px;
 }
 
 .footer__column_content_social {
-  margin: 0;
+  margin: 0px;
 }
 
 .footer__logo {
